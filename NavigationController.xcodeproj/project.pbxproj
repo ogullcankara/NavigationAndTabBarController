@@ -16,6 +16,7 @@
 		0A6AE505287CC1A30097EB32 /* NavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AE504287CC1A30097EB32 /* NavigationControllerTests.swift */; };
 		0A6AE50F287CC1A30097EB32 /* NavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AE50E287CC1A30097EB32 /* NavigationControllerUITests.swift */; };
 		0A6AE511287CC1A30097EB32 /* NavigationControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AE510287CC1A30097EB32 /* NavigationControllerUITestsLaunchTests.swift */; };
+		0A9D9CB2287CEE020027F398 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D9CB1287CEE020027F398 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0A6AE50A287CC1A30097EB32 /* NavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6AE50E287CC1A30097EB32 /* NavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerUITests.swift; sourceTree = "<group>"; };
 		0A6AE510287CC1A30097EB32 /* NavigationControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A9D9CB1287CEE020027F398 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0A6AE4F6287CC1A30097EB32 /* Assets.xcassets */,
 				0A6AE4F8287CC1A30097EB32 /* LaunchScreen.storyboard */,
 				0A6AE4FB287CC1A30097EB32 /* Info.plist */,
+				0A9D9CB1287CEE020027F398 /* SecondViewController.swift */,
 			);
 			path = NavigationController;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9D9CB2287CEE020027F398 /* SecondViewController.swift in Sources */,
 				0A6AE4F2287CC1A20097EB32 /* ViewController.swift in Sources */,
 				0A6AE4EE287CC1A20097EB32 /* AppDelegate.swift in Sources */,
 				0A6AE4F0287CC1A20097EB32 /* SceneDelegate.swift in Sources */,
