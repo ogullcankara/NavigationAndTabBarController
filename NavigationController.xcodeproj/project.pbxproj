@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1F49EE287F5E9200D292BB /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1F49ED287F5E9200D292BB /* DetialViewController.swift */; };
 		0A6AE4EE287CC1A20097EB32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AE4ED287CC1A20097EB32 /* AppDelegate.swift */; };
 		0A6AE4F0287CC1A20097EB32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AE4EF287CC1A20097EB32 /* SceneDelegate.swift */; };
 		0A6AE4F2287CC1A20097EB32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AE4F1287CC1A20097EB32 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1F49ED287F5E9200D292BB /* DetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialViewController.swift; sourceTree = "<group>"; };
 		0A6AE4EA287CC1A20097EB32 /* NavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6AE4ED287CC1A20097EB32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A6AE4EF287CC1A20097EB32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				0A6AE4EF287CC1A20097EB32 /* SceneDelegate.swift */,
 				0A6AE4F1287CC1A20097EB32 /* ViewController.swift */,
 				0A6AE4F3287CC1A20097EB32 /* Main.storyboard */,
+				0A1F49ED287F5E9200D292BB /* DetialViewController.swift */,
 				0A6AE4F6287CC1A30097EB32 /* Assets.xcassets */,
 				0A6AE4F8287CC1A30097EB32 /* LaunchScreen.storyboard */,
 				0A6AE4FB287CC1A30097EB32 /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1F49EE287F5E9200D292BB /* DetialViewController.swift in Sources */,
 				0A9D9CB2287CEE020027F398 /* SecondViewController.swift in Sources */,
 				0A6AE4F2287CC1A20097EB32 /* ViewController.swift in Sources */,
 				0A6AE4EE287CC1A20097EB32 /* AppDelegate.swift in Sources */,

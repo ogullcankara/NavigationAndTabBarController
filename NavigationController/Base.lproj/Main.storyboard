@@ -50,7 +50,7 @@
                             <constraint firstItem="5tY-kR-pNm" firstAttribute="baseline" secondItem="BJv-P1-cQo" secondAttribute="baseline" id="oSe-Zt-DhW"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Başlık" prompt="Açıklama" id="ui7-kt-9wF">
+                    <navigationItem key="navigationItem" title="Page 1" id="ui7-kt-9wF">
                         <barButtonItem key="backBarButtonItem" title="Geri" id="sEo-lE-7Yf"/>
                         <barButtonItem key="rightBarButtonItem" title="Detay" id="8Ej-RI-oBE">
                             <connections>
@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="2668.1159420289855" y="65.625"/>
         </scene>
-        <!--View Controller-->
+        <!--Detial View Controller-->
         <scene sceneID="L14-df-XW8">
             <objects>
-                <viewController id="xV3-uK-6S2" sceneMemberID="viewController">
+                <viewController id="xV3-uK-6S2" customClass="DetialViewController" customModule="NavigationController" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UDA-hS-Zh2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,15 +77,48 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ebt-JN-U6H">
+                                <rect key="frame" x="20" y="775" width="394" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="qd1-bW-ulQ">
+                                        <connections>
+                                            <action selector="rewindButton:" destination="xV3-uK-6S2" id="UoA-iL-o9r"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="63B-nX-Uor"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="yTN-RE-iRV"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="Iop-uy-ucR"/>
+                                    <barButtonItem systemItem="play" id="XZo-LT-KHB">
+                                        <connections>
+                                            <action selector="playButton:" destination="xV3-uK-6S2" id="bpH-If-Uwh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="EVP-rF-51N"/>
+                                    <barButtonItem style="plain" systemItem="fixedSpace" id="Jb0-fx-tpN"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="kkM-ZW-FXA"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="WtF-ht-sDa"/>
+                                    <barButtonItem systemItem="fastForward" id="NlF-YC-kQX">
+                                        <connections>
+                                            <action selector="fastForwardButton:" destination="xV3-uK-6S2" id="w4B-AU-ahd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9Mb-C1-4cv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ebt-JN-U6H" secondAttribute="bottom" constant="72" id="4Lg-tV-9Et"/>
                             <constraint firstItem="Bu7-cd-rBn" firstAttribute="top" secondItem="9Mb-C1-4cv" secondAttribute="top" constant="247" id="CLE-o1-i1d"/>
                             <constraint firstItem="Bu7-cd-rBn" firstAttribute="centerX" secondItem="UDA-hS-Zh2" secondAttribute="centerX" id="OZt-bV-aCB"/>
+                            <constraint firstAttribute="trailing" secondItem="ebt-JN-U6H" secondAttribute="trailing" symbolic="YES" id="P9E-Fp-xGi"/>
+                            <constraint firstItem="ebt-JN-U6H" firstAttribute="leading" secondItem="9Mb-C1-4cv" secondAttribute="leading" constant="20" id="TH1-FD-bzc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gL8-8t-kzL"/>
+                    <connections>
+                        <outlet property="detialLabel" destination="Bu7-cd-rBn" id="Yln-gH-XPl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kHZ-wM-TTb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
